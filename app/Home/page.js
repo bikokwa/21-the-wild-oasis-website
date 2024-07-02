@@ -1,13 +1,9 @@
 import { title } from "process";
 
 export const metadata = {
-  title: "Cabins",
+  title: "Home",
 };
 
 export default function Page() {
-  return (
-    <div>
-      <h1>Cabins page</h1>
-    </div>
-  );
+  return <h1>Home</h1>;
 }
